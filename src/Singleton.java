@@ -10,8 +10,8 @@ public class Singleton {
     
     /** Hidden constructor */
     private Singleton() { 
-        numCreated++;
         System.out.println("Singleton Constructor\t" + numCreated);
+        numCreated++;
     }
     
     /** Returns an instance of the class */
