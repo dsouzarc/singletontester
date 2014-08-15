@@ -8,5 +8,6 @@ public class SingletonTester {
         
         //Create a new singleton
         Singleton ryan = Singleton.getSingleton();
+
     }
 }
